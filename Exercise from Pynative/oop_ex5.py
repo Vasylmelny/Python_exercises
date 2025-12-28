@@ -10,12 +10,10 @@ class Vehicle:
         print(f"Color: {self.color}, Vehicle name: {self.name},Speed: {self.max_speed} Mileage: {self.mileage}")
 
 class Bus(Vehicle):
-    def __init__(self, name, max_speed, mileage, color = "White"):
-        super().__init__(name, max_speed, mileage, color)
+    pass
 
 class Car(Vehicle):
-    def __init__(self, name, max_speed, mileage, color="White"):
-        super().__init__(name, max_speed, mileage, color)
+    pass
 
 # Expected Output:
 #
